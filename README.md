@@ -49,7 +49,7 @@ password : coding_saint_client_secret
   "scope": "read write"
 }
 ```
-Tt get Access Token via Refresh token
+To get Access Token via Refresh token
 ```
 Method : GET
 URL : http://localhost:9191/cds/auth/v1/oauth/token?grant_type=refresh_token&refresh_token=5413ef08-91c0-4b9b-ab0b-bb0b2f47ef79
